@@ -16,23 +16,31 @@
         <div class="logo">
             <a href="/">DMV Exterminators</a>
         </div>
-        <div class="nav-links">
-            <a href="/">Home</a>
-            <div class="dropdown">
-                <a href="/services" class="active">Services</a>
-                <div class="dropdown-content">
-                    <a href="/services/general-pest-control">General Pest Control</a>
-                    <a href="/services/termite-control">Termite Control</a>
-                    <a href="/services/rodent-control">Rodent Control</a>
-                    <a href="/services/bed-bug-control">Bed Bug Control</a>
-                    <a href="/services/commercial">Commercial Services</a>
+        <button class="hamburger-menu" aria-label="Toggle navigation menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        <div class="nav-links-container">
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <div class="dropdown">
+                    <a href="/services" class="active">Services</a>
+                    <div class="dropdown-content">
+                        <a href="/general-pest-control">General Pest Control</a>
+                        <a href="/bed-bug-control">Bed Bug Control</a>
+                        <a href="/termite-control">Termite Control</a>
+                        <a href="/rodent-control">Rodent Control</a>
+                        <a href="/preventative-pest-control">Preventative Pest Control</a>
+                        <a href="/commercial-pest-control">Commercial Pest Control</a>
+                    </div>
                 </div>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
             </div>
-            <a href="/about">About</a>
-            <a href="/contact">Contact</a>
-        </div>
-        <div class="phone-number">
-            <a href="tel:202-321-2896">(202) 321-2896</a>
+            <div class="phone-number">
+                <a href="tel:202-321-2896">(202) 321-2896</a>
+            </div>
         </div>
     </nav>
 
@@ -52,46 +60,7 @@
                 <p>Bed bugs can be a persistent and frustrating problem. DMV Exterminators offers specialized bed bug control services, including heat treatments and targeted chemical treatments, designed to eliminate these pests from your home or business in Montgomery County, Prince Georges County, Fairfax County, and Washington D.C. We understand the urgency and work discreetly to restore your comfort.</p>
             </div>
             <div class="service-image">
-                <img src="images/bed-bug-infestation.jpg" alt="Bed Bug Infestation Example">
-            </div>
-        </div>
-    </section>
-
-    <!-- Treatment Methods Section -->
-    <section class="treatment-methods">
-        <div class="treatment-container">
-            <h2>Our Treatment Methods</h2>
-            <div class="methods-grid">
-                <div class="method-card">
-                    <h3>Heat Treatment</h3>
-                    <p>Our most effective solution for complete bed bug elimination:</p>
-                    <ul>
-                        <li>Raises room temperature to lethal levels for bed bugs</li>
-                        <li>Penetrates deep into furniture and walls</li>
-                        <li>Eliminates all life stages including eggs</li>
-                        <li>Chemical-free and environmentally friendly</li>
-                    </ul>
-                </div>
-                <div class="method-card">
-                    <h3>Chemical Treatment</h3>
-                    <p>Targeted application of EPA-approved insecticides:</p>
-                    <ul>
-                        <li>Precise application to infested areas</li>
-                        <li>Residual protection against reinfestation</li>
-                        <li>Safe for your family and pets when properly applied</li>
-                        <li>Follow-up treatments as needed</li>
-                    </ul>
-                </div>
-                <div class="method-card">
-                    <h3>Integrated Approach</h3>
-                    <p>Combination of methods for maximum effectiveness:</p>
-                    <ul>
-                        <li>Thorough inspection and monitoring</li>
-                        <li>Customized treatment plan</li>
-                        <li>Preventative measures and education</li>
-                        <li>Follow-up inspections</li>
-                    </ul>
-                </div>
+                <img src="images/bed-bug-extermination.png" alt="Bed Bug Infestation Example">
             </div>
         </div>
     </section>
@@ -147,19 +116,19 @@
                     </ul>
                 </div>
                 <div class="tip-card">
-                    <h3>Home Protection</h3>
-                    <ul>
-                        <li>Use protective mattress covers</li>
-                        <li>Regularly vacuum and clean</li>
-                        <li>Reduce clutter in bedrooms</li>
-                    </ul>
-                </div>
-                <div class="tip-card">
                     <h3>Secondhand Items</h3>
                     <ul>
                         <li>Inspect used furniture before bringing home</li>
                         <li>Wash secondhand clothing immediately</li>
                         <li>Consider professional inspection of large items</li>
+                    </ul>
+                </div>
+                <div class="tip-card">
+                    <h3>Home Protection</h3>
+                    <ul>
+                        <li>Use protective mattress covers</li>
+                        <li>Regularly vacuum and clean</li>
+                        <li>Reduce clutter in bedrooms</li>
                     </ul>
                 </div>
             </div>
@@ -177,7 +146,43 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <!-- ... existing footer content ... -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><a href="tel:1-800-555-0123">(202) 321-2896</a></p>
+                <p><a href="mailto:info@dmvexterminators.com">info@dmvexterminators.com</a></p>
+                <p>Washington DC Metro Area</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="/services/residential">General Pest Control</a></li>
+                    <li><a href="/services/commercial">Bed Bug Control Control</a></li>
+                    <li><a href="/services/rodent">Preventative Services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/DMVEXTERMINATORS2016/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                </div>
+                <p>MDA# 31710 <br> VDACS# 13665</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 DMV Exterminators. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>

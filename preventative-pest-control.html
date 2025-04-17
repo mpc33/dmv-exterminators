@@ -16,24 +16,31 @@
         <div class="logo">
             <a href="/">DMV Exterminators</a>
         </div>
-        <div class="nav-links">
-            <a href="/">Home</a>
-            <div class="dropdown">
-                <a href="/services" class="active">Services</a>
-                <div class="dropdown-content">
-                    <a href="/services/general-pest-control">General Pest Control</a>
-                    <a href="/services/termite-control">Termite Control</a>
-                    <a href="/services/rodent-control">Rodent Control</a>
-                    <a href="/services/bed-bug-control">Bed Bug Control</a>
-                    <a href="/services/preventative-pest-control">Preventative Pest Control</a>
-                    <a href="/services/commercial">Commercial Services</a>
+        <button class="hamburger-menu" aria-label="Toggle navigation menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        <div class="nav-links-container">
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <div class="dropdown">
+                    <a href="/services" class="active">Services</a>
+                    <div class="dropdown-content">
+                        <a href="/general-pest-control">General Pest Control</a>
+                        <a href="/bed-bug-control">Bed Bug Control</a>
+                        <a href="/termite-control">Termite Control</a>
+                        <a href="/rodent-control">Rodent Control</a>
+                        <a href="/preventative-pest-control">Preventative Pest Control</a>
+                        <a href="/commercial-pest-control">Commercial Pest Control</a>
+                    </div>
                 </div>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
             </div>
-            <a href="/about">About</a>
-            <a href="/contact">Contact</a>
-        </div>
-        <div class="phone-number">
-            <a href="tel:202-321-2896">(202) 321-2896</a>
+            <div class="phone-number">
+                <a href="tel:202-321-2896">(202) 321-2896</a>
+            </div>
         </div>
     </nav>
 
@@ -53,7 +60,7 @@
                 <p>Don't wait for a pest problem to arise. Our preventative pest control services offer regular inspections, barrier treatments, and exclusion services to keep pests away from your home or business in Montgomery County, Prince Georges County, Fairfax County, and DC year-round. Proactive pest control is the key to a pest-free future.</p>
             </div>
             <div class="service-image">
-                <img src="images/preventative-treatment.jpg" alt="Preventative Pest Control Treatment">
+                <img src="images/preventative-services.png" alt="Preventative Pest Control Treatment">
             </div>
         </div>
     </section>
@@ -70,7 +77,7 @@
                         <li>Quarterly property inspections</li>
                         <li>Early detection of pest activity</li>
                         <li>Identification of entry points</li>
-                        <li>Detailed inspection reports</li>
+
                     </ul>
                 </div>
                 <div class="method-card">
@@ -78,7 +85,7 @@
                     <p>Creating protective barriers around your property:</p>
                     <ul>
                         <li>Perimeter treatments</li>
-                        <li>Foundation protection</li>
+                       
                         <li>Entry point sealing</li>
                         <li>Safe, long-lasting products</li>
                     </ul>
@@ -89,7 +96,7 @@
                     <ul>
                         <li>Sealing cracks and gaps</li>
                         <li>Installing door sweeps</li>
-                        <li>Repairing damaged screens</li>
+               
                         <li>Improving ventilation</li>
                     </ul>
                 </div>
@@ -134,41 +141,7 @@
         </div>
     </section>
 
-    <!-- Maintenance Plans Section -->
-    <section class="maintenance-plans">
-        <div class="plans-container">
-            <h2>Maintenance Plans</h2>
-            <div class="plans-grid">
-                <div class="plan-card">
-                    <h3>Basic Plan</h3>
-                    <ul>
-                        <li>Quarterly inspections</li>
-                        <li>Perimeter treatments</li>
-                        <li>Basic exclusion services</li>
-                        <li>Emergency call-back service</li>
-                    </ul>
-                </div>
-                <div class="plan-card">
-                    <h3>Premium Plan</h3>
-                    <ul>
-                        <li>Monthly inspections</li>
-                        <li>Comprehensive treatments</li>
-                        <li>Advanced exclusion services</li>
-                        <li>Priority emergency service</li>
-                    </ul>
-                </div>
-                <div class="plan-card">
-                    <h3>Custom Plan</h3>
-                    <ul>
-                        <li>Tailored inspection schedule</li>
-                        <li>Customized treatment plan</li>
-                        <li>Specialized exclusion services</li>
-                        <li>24/7 emergency support</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- CTA Section -->
     <section class="service-cta">
@@ -181,7 +154,43 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <!-- ... existing footer content ... -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><a href="tel:1-800-555-0123">(202) 321-2896</a></p>
+                <p><a href="mailto:info@dmvexterminators.com">info@dmvexterminators.com</a></p>
+                <p>Washington DC Metro Area</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="/services/residential">General Pest Control</a></li>
+                    <li><a href="/services/commercial">Bed Bug Control Control</a></li>
+                    <li><a href="/services/rodent">Preventative Services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/DMVEXTERMINATORS2016/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                </div>
+                <p>MDA# 31710 <br> VDACS# 13665</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 DMV Exterminators. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>

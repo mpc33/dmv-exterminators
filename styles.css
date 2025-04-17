@@ -119,6 +119,7 @@ body {
         box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
         z-index: 999;
         justify-content: flex-start;
+        overflow-y: auto;
     }
 
     .nav-links-container.active {
@@ -132,17 +133,38 @@ body {
         gap: 0;
     }
 
-    .nav-links a {
+    .nav-links a,
+    .nav-links .dropdown-toggle {
         padding: 1rem 0;
         border-bottom: 1px solid #eee;
         width: 100%;
         display: block;
     }
 
+    .dropdown-content {
+        position: static;
+        display: none;
+        box-shadow: none;
+        background-color: #f9f9f9;
+        padding: 0.5rem 0;
+        margin: 0.5rem 0;
+    }
+
+    .dropdown.active .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        padding: 0.75rem 1rem;
+        border-bottom: none;
+    }
+
     .phone-number {
         margin-top: 2rem;
         text-align: center;
         width: 100%;
+        border-top: 1px solid #eee;
+        padding-top: 1rem;
     }
 
     /* Hamburger menu animation */
@@ -1015,6 +1037,12 @@ body {
     justify-content: center;
     text-align: center;
     color: white;
+    margin-top: 60px;
+    padding: 2rem 5%;
+}
+
+.contact-hero-content {
+    max-width: 800px;
 }
 
 .contact-hero-content h1 {
@@ -1024,6 +1052,7 @@ body {
 
 .contact-hero-content p {
     font-size: 1.2rem;
+    margin: 0;
 }
 
 .contact-info-section {
@@ -1206,8 +1235,7 @@ body {
 /* Service Page Specific Styles */
 .service-hero {
     height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('images/IMG_6025.JPG');
+    background-color: #15192B;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1215,6 +1243,12 @@ body {
     justify-content: center;
     text-align: center;
     color: white;
+    margin-top: 60px; /* Add margin to account for fixed navbar */
+    padding: 2rem 5%;
+}
+
+.service-hero-content {
+    max-width: 800px;
 }
 
 .service-hero-content h1 {
@@ -1224,6 +1258,22 @@ body {
 
 .service-hero-content p {
     font-size: 1.2rem;
+    margin: 0; /* Remove bottom margin to help with centering */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .service-hero {
+        height: 45vh; /* Slightly taller on mobile for better text display */
+    }
+
+    .service-hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .service-hero-content p {
+        font-size: 1rem;
+    }
 }
 
 .service-description {
@@ -1306,6 +1356,7 @@ body {
 .pests-container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 4rem 2rem;
 }
 
 .pests-container h2 {
@@ -1316,32 +1367,40 @@ body {
 
 .pests-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    margin-top: 3rem;
 }
 
 .pest-card {
     background: white;
     border-radius: 10px;
-    overflow: hidden;
+    padding: 2rem;
+    text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.pest-card:hover {
+    transform: translateY(-5px);
 }
 
 .pest-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1.5rem;
 }
 
 .pest-card h3 {
-    padding: 1.5rem;
     color: #333;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 .pest-card p {
-    padding: 0 1.5rem 1.5rem;
     color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .service-cta {
@@ -1423,14 +1482,25 @@ body {
     }
 
     .pests-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .pests-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .pests-grid {
         grid-template-columns: 1fr;
     }
 }
 
 /* Termite Control Specific Styles */
-.warning-signs {
+.warning-signs-termite {
     padding: 5rem 5%;
-    background-color: #f9f9f9;
 }
 
 .warning-container {
@@ -1941,4 +2011,8 @@ body {
     .feature-card {
         padding: 1.5rem;
     }
+}
+
+.dropdown-toggle {
+    cursor: pointer;
 } 
