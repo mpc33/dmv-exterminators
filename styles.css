@@ -1995,21 +1995,33 @@ body {
     left: 0;
 }
 
-/* Commercial Benefits Section - Using existing benefits styles with custom colors */
-.commercial-benefits .benefit-icon {
-    color: #0A8A5F;
+/* Commercial Benefits Section */
+.commercial-benefits {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .solutions-grid,
-    .features-grid {
-        grid-template-columns: 1fr;
-    }
+.commercial-benefits .benefits-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-    .solution-card,
-    .feature-card {
-        padding: 1.5rem;
+.commercial-benefits .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .commercial-benefits {
+        padding: 3rem 1rem;
+    }
+    
+    .commercial-benefits .benefits-grid {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
     }
 }
 
