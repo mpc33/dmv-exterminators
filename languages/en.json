@@ -1,0 +1,500 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "generalPest": "General Pest Control",
+    "bedBug": "Bed Bug Control",
+    "termite": "Termite Control",
+    "rodent": "Rodent Control",
+    "preventative": "Preventative Pest Control",
+    "commercial": "Commercial Pest Control"
+  },
+  "hero": {
+    "title": "Reliable Pest Control Services in the DMV",
+    "subtitle": "Fast, Safe, and Effective Pest Solutions for Homes and Businesses in the DC Metro Area - Get a Free Inspection!",
+    "cta": "Request a Free Quote",
+    "serving": "Serving: Montgomery County • Prince Georges County • Fairfax County • Washington DC"
+  },
+  "services": {
+    "title": "Our Professional Services",
+    "residential": {
+      "title": "Residential Pest Control",
+      "description": "Protect your home from common pests like ants, spiders, roaches, and more.",
+      "cta": "Learn More →"
+    },
+    "bedBug": {
+      "title": "Bed Bug Treatment & Prevention",
+      "description": "Expert termite inspections and treatments to safeguard your property.",
+      "cta": "Learn More →"
+    },
+    "commercial": {
+      "title": "Commercial Pest Control",
+      "description": "Services tailored to businesses, restaurants, and other commercial properties.",
+      "cta": "Learn More →"
+    }
+  },
+  "whyChoose": {
+    "title": "Why Choose DMV Exterminators?",
+    "locallyOwned": {
+      "title": "Locally Owned",
+      "description": "Serving the DC Metro Area for over 20 years"
+    },
+    "licensed": {
+      "title": "Licensed Experts",
+      "description": "Understanding local pest challenges"
+    },
+    "petFriendly": {
+      "title": "Pet Friendly",
+      "description": "Safe solutions for your entire family"
+    },
+    "guaranteed": {
+      "title": "Guaranteed Results",
+      "description": "We stand behind our services"
+    }
+  },
+  "reviews": {
+    "title": "Trusted by Your Neighbors"
+  },
+  "quote": {
+    "title": "Get Your Free Pest Control Quote Today!",
+    "cta": "Schedule Free Inspection"
+  },
+  "about": {
+    "title": "About DMV Exterminators",
+    "description": "With over two decades of experience serving the DC Metropolitan area, DMV Exterminators has become the trusted name in pest control. Our commitment to using safe, effective methods and providing exceptional customer service has earned us the loyalty of thousands of satisfied customers.",
+    "cta": "Learn More About Us →"
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact Us",
+      "area": "Washington DC Metro Area"
+    },
+    "services": {
+      "title": "Services",
+      "general": "General Pest Control",
+      "bedBug": "Bed Bug Control",
+      "preventative": "Preventative Services"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "copyright": "© 2025 DMV Exterminators. All rights reserved."
+  },
+  "language": {
+    "toggle": "ES"
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Our Story",
+      "subtitle": "Serving the DMV Community Since 2005"
+    },
+    "history": {
+      "title": "Our Local Roots",
+      "description": "Founded in 2005 in Rockville, Maryland, DMV Exterminators was born from a simple mission: to provide our local community with reliable, effective pest control solutions. Our founder, Carlos Marchena, recognized the unique pest challenges faced by homeowners and businesses in the DC Metro area and set out to create a company that truly understands and serves our local community."
+    },
+    "mission": {
+      "title": "Our Mission & Values",
+      "founderCaption": "Carlos Marchena, Founder & Lead Technician",
+      "value1Title": "Community First",
+      "value1Description": "We're not just a pest control company - we're your neighbors. We're committed to making our community a better place to live and work.",
+      "value2Title": "Local Expertise",
+      "value2Description": "With 20+ years of experience in the DMV area, we understand the unique pest challenges of our region and how to solve them effectively."
+    },
+    "serviceArea": {
+      "title": "Our Service Area",
+      "weServe": "We Serve:",
+      "montgomery": "Montgomery County, MD",
+      "pg": "Prince George's County, MD",
+      "fairfax": "Fairfax County, VA",
+      "arlington": "Arlington County, VA",
+      "dc": "Washington, DC",
+      "surrounding": "And surrounding areas within 30 miles of Rockville"
+    },
+    "contact": {
+      "title": "Contact Our Team",
+      "getInTouch": "Get in Touch",
+      "serving": "Serving the DMV Area",
+      "hours": "Mon-Fri: 8am-6pm<br>Sat: 9am-2pm",
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "phonePlaceholder": "Your Phone",
+      "messagePlaceholder": "How can we help you?",
+      "sendButton": "Send Message"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contact Our Team",
+      "subtitle": "Get in touch with DMV Exterminators for fast, reliable pest control solutions"
+    },
+    "info": {
+      "call": {
+        "title": "Call Us",
+        "hours": "Mon-Fri: 8am-6pm<br>Sat: 9am-2pm"
+      },
+      "email": {
+        "title": "Email Us",
+        "response": "Response within 24 hours"
+      },
+      "area": {
+        "title": "Service Area",
+        "radius": "30-mile radius of Rockville, MD",
+        "counties": "Including DC, Montgomery, and Fairfax Counties"
+      }
+    },
+    "form": {
+      "title": "Request a Free Quote",
+      "description": "Fill out the form below and our team will get back to you within 24 hours.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your Name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Your Email",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "Your Phone",
+      "addressLabel": "Service Address",
+      "addressPlaceholder": "Your Address",
+      "messageLabel": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submitButton": "Submit Request"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "question1": "Are the treatments safe for my family and pets?",
+      "answer1": "We prioritize the safety of your family and pets by using EPA-approved products and following strict application guidelines. Our technicians are trained to apply treatments in a manner that minimizes any potential risks.",
+      "question2": "Will the pests be completely eliminated?",
+      "answer2": "Our experienced technicians conduct thorough inspections to identify the source of the infestation and develop a targeted treatment plan. We are committed to completely eliminating the pests and will work with you to ensure your home is pest-free",
+      "question3": "How much will the service cost?",
+      "answer3": "We strive to offer high-quality pest control services at a competitive price point within the local market. The exact cost will depend on the type of pest, the size of the infestation, and the size of your property, so we recommend contacting us for a free, no-obligation quote.",
+      "question4": "Are the treatments environmentally friendly?",
+      "answer4": "We do offer eco-friendly chemical services. We understand the importance of protecting the environment and offer a range of treatment options that utilize more environmentally conscious products. Our team can discuss these options with you to find the best solution for your needs.",
+      "question5": "How quickly can you respond to my pest problem?",
+      "answer5": "We understand that pest problems can be urgent and disruptive. Depending on our current schedule and the severity of the issue, we can often respond as soon as the same day or the next day. Please call us to discuss your specific situation, and we will do our best to schedule your service as quickly as possible.",
+      "question6": "Do you offer any guarantee?",
+      "answer6": "Our guarantee is built on our 20 years of experience and our commitment to effective pest control. We are confident in our ability to get rid of pests, typically within 3 visits or less. To ensure long-term pest prevention, we also offer preventative treatment plans tailored to your specific needs."
+    }
+  },
+  "generalPest": {
+    "hero": {
+      "title": "General Pest Control Services",
+      "subtitle": "Keeping Your Home or Business Pest-Free in the DMV"
+    },
+    "description": {
+      "title": "Comprehensive Pest Control Solutions",
+      "text": "Are unwanted pests like ants, spiders, roaches, earwigs, and silverfish invading your space? Our general pest control services offer comprehensive solutions to identify, eliminate, and prevent these common nuisances. We use proven techniques and safe products to ensure a pest-free environment for your peace of mind."
+    },
+    "details": {
+      "inspection": {
+        "title": "Thorough Inspection",
+        "text": "We conduct comprehensive inspections to identify pest entry points and nesting areas."
+      },
+      "treatment": {
+        "title": "Safe Treatment",
+        "text": "We use products and methods that are safe for your family and pets."
+      },
+      "prevention": {
+        "title": "Prevention",
+        "text": "Implementing long-term solutions to prevent future infestations."
+      }
+    },
+    "pests": {
+      "title": "Common Pests We Treat",
+      "ants": {
+        "title": "Ants",
+        "text": "Eliminating ant colonies and preventing future invasions."
+      },
+      "spiders": {
+        "title": "Spiders",
+        "text": "Removing spiders and their webs from your property."
+      },
+      "cockroaches": {
+        "title": "Cockroaches",
+        "text": "Eradicating roach infestations at the source."
+      },
+      "earwigs": {
+        "title": "Earwigs",
+        "text": "Controlling earwig populations in and around your home."
+      },
+      "silverfish": {
+        "title": "Silverfish",
+        "text": "Treating silverfish infestations in dark, damp areas."
+      },
+      "bedbugs": {
+        "title": "Bedbugs",
+        "text": "Exterminating bedbugs with targeted treatments."
+      }
+    },
+    "cta": {
+      "title": "Ready to Take Back Your Space?",
+      "text": "Contact us today for a free inspection and quote.",
+      "button": "Schedule Free Inspection"
+    }
+  },
+  "bedBugControl": {
+    "hero": {
+      "title": "Bed Bug Control Services",
+      "subtitle": "Get Rid of Bed Bugs Quickly and Effectively in the DC Metro Area"
+    },
+    "description": {
+      "title": "Expert Bed Bug Elimination",
+      "text": "Bed bugs can be a persistent and frustrating problem. DMV Exterminators offers specialized bed bug control services, including heat treatments and targeted chemical treatments, designed to eliminate these pests from your home or business in Montgomery County, Prince Georges County, Fairfax County, and Washington D.C. We understand the urgency and work discreetly to restore your comfort."
+    },
+    "signs": {
+      "title": "Signs of Bed Bug Infestation",
+      "bites": {
+        "title": "Bite Marks",
+        "text": "Small, red, itchy welts in a line or cluster pattern on exposed skin."
+      },
+      "blood": {
+        "title": "Blood Stains",
+        "text": "Tiny blood spots on sheets, pillowcases, or mattresses."
+      },
+      "fecal": {
+        "title": "Fecal Spots",
+        "text": "Dark, rust-colored spots on bedding, furniture, or walls."
+      },
+      "odor": {
+        "title": "Musty Odor",
+        "text": "A sweet, musty smell in heavily infested areas."
+      }
+    },
+    "prevention": {
+      "title": "Bed Bug Prevention Tips",
+      "travel": {
+        "title": "Travel Precautions",
+        "tip1": "Inspect hotel rooms before unpacking",
+        "tip2": "Keep luggage on luggage racks",
+        "tip3": "Wash clothes in hot water after travel"
+      },
+      "secondhand": {
+        "title": "Secondhand Items",
+        "tip1": "Inspect used furniture before bringing home",
+        "tip2": "Wash secondhand clothing immediately",
+        "tip3": "Consider professional inspection of large items"
+      },
+      "home": {
+        "title": "Home Protection",
+        "tip1": "Use protective mattress covers",
+        "tip2": "Regularly vacuum and clean",
+        "tip3": "Reduce clutter in bedrooms"
+      }
+    },
+    "cta": {
+      "title": "Need Bed Bug Treatment?",
+      "text": "Contact us today for a free inspection and customized treatment plan.",
+      "button": "Schedule Free Inspection"
+    }
+  },
+  "termiteControl": {
+    "hero": {
+      "title": "Termite Control Services",
+      "subtitle": "Protecting Your Property from Costly Damage in the DC Metro Area"
+    },
+    "description": {
+      "title": "Expert Termite Protection",
+      "text": "Termites can cause significant structural damage to homes and businesses in our region. DMV Exterminators provides expert termite control services, including thorough inspections to detect infestations, effective treatments using liquid and baiting systems, and preventative measures to safeguard your property in Montgomery County, Prince Georges County, Fairfax County, and DC. Don't wait until it's too late – protect your investment today."
+    },
+    "details": {
+      "inspection": {
+        "title": "Comprehensive Inspection",
+        "text": "Thorough examination of your property to identify termite activity and potential entry points."
+      },
+      "treatment": {
+        "title": "Advanced Treatment",
+        "text": "Utilizing treatments and proven systems for maximum effectiveness."
+      },
+      "prevention": {
+        "title": "Preventative Care",
+        "text": "Ongoing monitoring and maintenance to prevent future infestations."
+      }
+    },
+    "signs": {
+      "title": "Signs of Termite Infestation",
+      "mudTubes": {
+        "title": "Mud Tubes",
+        "text": "Small tunnels made of mud on foundation walls or in crawl spaces."
+      },
+      "hollowWood": {
+        "title": "Hollow Wood",
+        "text": "Wood that sounds hollow when tapped or appears damaged."
+      },
+      "swarmers": {
+        "title": "Swarmers",
+        "text": "Winged termites or discarded wings near windows or doors."
+      },
+      "frass": {
+        "title": "Frass",
+        "text": "Termite droppings that resemble sawdust or coffee grounds."
+      }
+    },
+    "cta": {
+      "title": "Protect Your Property Today",
+      "text": "Schedule a free termite inspection and get a customized treatment plan.",
+      "button": "Schedule Free Inspection"
+    }
+  },
+  "rodentControl": {
+    "hero": {
+      "title": "Rodent Control Services",
+      "subtitle": "Humane and Effective Removal in Montgomery County, Prince Georges County, Fairfax County, and DC"
+    },
+    "description": {
+      "title": "Expert Rodent Removal",
+      "text": "Mice, rats, and voles can be more than just a nuisance; they can carry diseases and cause damage to your property. Our rodent control services focus on humane and effective removal of these pests, followed by preventative strategies to keep them from returning to your home or business in the DMV area."
+    },
+    "details": {
+      "inspection": {
+        "title": "Thorough Inspection",
+        "text": "Comprehensive assessment to identify entry points and nesting areas."
+      },
+      "removal": {
+        "title": "Humane Removal",
+        "text": "Using safe and ethical methods to remove rodents from your property."
+      },
+      "prevention": {
+        "title": "Prevention",
+        "text": "Implementing long-term solutions to prevent future infestations."
+      }
+    },
+    "risks": {
+      "title": "Health Risks of Rodent Infestations",
+      "disease": {
+        "title": "Disease Transmission",
+        "text": "Rodents can carry and transmit various diseases through their droppings and urine."
+      },
+      "allergens": {
+        "title": "Allergens",
+        "text": "Rodent dander and droppings can trigger allergies and asthma attacks."
+      },
+      "damage": {
+        "title": "Property Damage",
+        "text": "Rodents can chew through wires, insulation, and structural elements."
+      },
+      "food": {
+        "title": "Food Contamination",
+        "text": "Rodents can contaminate food supplies and preparation areas."
+      }
+    },
+    "prevention": {
+      "title": "Rodent Prevention Tips",
+      "entry": {
+        "title": "Seal Entry Points",
+        "tip1": "Inspect your property for gaps and holes",
+        "tip2": "Seal cracks in foundation and walls",
+        "tip3": "Install door sweeps and weather stripping"
+      },
+      "cleanliness": {
+        "title": "Maintain Cleanliness",
+        "tip1": "Store food in sealed containers",
+        "tip2": "Regularly clean up crumbs and spills",
+        "tip3": "Keep garbage in sealed bins"
+      },
+      "landscape": {
+        "title": "Landscape Management",
+        "tip1": "Trim vegetation away from buildings",
+        "tip2": "Remove potential nesting sites",
+        "tip3": "Keep firewood stored away from structures"
+      }
+    },
+    "cta": {
+      "title": "Need Help with Rodents?",
+      "text": "Contact us today for a free inspection and customized rodent control plan.",
+      "button": "Schedule Free Inspection"
+    }
+  },
+  "preventativeControl": {
+    "hero": {
+      "title": "Preventative Pest Control Services",
+      "subtitle": "Long-Term Protection for Your DMV Property"
+    },
+    "description": {
+      "title": "Proactive Pest Protection",
+      "text": "Don't wait for a pest problem to arise. Our preventative pest control services offer regular inspections, barrier treatments, and exclusion services to keep pests away from your home or business in Montgomery County, Prince Georges County, Fairfax County, and DC year-round. Proactive pest control is the key to a pest-free future."
+    },
+    "methods": {
+      "title": "Our Protection Methods",
+      "inspections": {
+        "title": "Regular Inspections",
+        "intro": "Comprehensive property assessments to identify potential issues:",
+        "item1": "Quarterly property inspections",
+        "item2": "Early detection of pest activity",
+        "item3": "Identification of entry points"
+      },
+      "barriers": {
+        "title": "Barrier Treatments",
+        "intro": "Creating protective barriers around your property:",
+        "item1": "Perimeter treatments",
+        "item2": "Entry point sealing",
+        "item3": "Safe, long-lasting products"
+      },
+      "exclusion": {
+        "title": "Exclusion Services",
+        "intro": "Preventing pest entry through structural improvements:",
+        "item1": "Sealing cracks and gaps",
+        "item2": "Installing door sweeps",
+        "item3": "Improving ventilation"
+      }
+    },
+    "benefits": {
+      "title": "Benefits of Preventative Pest Control",
+      "cost": {
+        "title": "Cost Savings",
+        "text": "Prevent expensive infestations and property damage before they occur."
+      },
+      "peace": {
+        "title": "Peace of Mind",
+        "text": "Enjoy a pest-free environment year-round with regular protection."
+      },
+      "health": {
+        "title": "Health Protection",
+        "text": "Reduce health risks associated with pests and their droppings."
+      },
+      "property": {
+        "title": "Property Value",
+        "text": "Maintain and potentially increase your property's value."
+      }
+    },
+    "cta": {
+      "title": "Ready for Year-Round Protection?",
+      "text": "Contact us today to discuss our preventative pest control plans and find the right solution for your property.",
+      "button": "Schedule Free Consultation"
+    }
+  },
+  "commercialControl": {
+    "hero": {
+      "title": "Commercial Pest Control Services",
+      "subtitle": "Tailored Solutions for Businesses in the DC Metro Area"
+    },
+    "description": {
+      "title": "Professional Commercial Pest Management",
+      "text": "DMV Exterminators understands the unique pest control needs of businesses, restaurants, and other commercial properties in Montgomery County, Prince Georges County, Fairfax County, and Washington D.C. We offer tailored commercial pest control solutions that are effective, discreet, and compliant with industry regulations. Protect your reputation and your bottom line with our professional services."
+    },
+    "benefits": {
+      "title": "Why Choose Our Commercial Services",
+      "scheduling": {
+        "title": "Flexible Scheduling",
+        "text": "Services scheduled around your business hours to minimize disruption."
+      },
+      "reputation": {
+        "title": "Reputation",
+        "text": "Maintain your business image with discreet and effective pest control services."
+      },
+      "cost": {
+        "title": "Cost-Effective",
+        "text": "Preventative programs to reduce long-term pest control costs."
+      }
+    },
+    "cta": {
+      "title": "Protect Your Business Today",
+      "text": "Contact us for a customized commercial pest control solution that fits your business needs.",
+      "button": "Request Commercial Quote"
+    }
+  }
+}

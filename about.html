@@ -23,23 +23,24 @@
         </button>
         <div class="nav-links-container">
             <div class="nav-links">
-                <a href="/">Home</a>
+                <a href="/" data-i18n="nav.home">Home</a>
                 <div class="dropdown">
-                    <a href="#" class="dropdown-toggle">Services</a>
+                    <a href="#" class="dropdown-toggle" data-i18n="nav.services">Services</a>
                     <div class="dropdown-content">
-                        <a href="/general-pest-control">General Pest Control</a>
-                        <a href="/bed-bug-control">Bed Bug Control</a>
-                        <a href="/termite-control">Termite Control</a>
-                        <a href="/rodent-control">Rodent Control</a>
-                        <a href="/preventative-pest-control">Preventative Pest Control</a>
-                        <a href="/commercial-pest-control">Commercial Pest Control</a>
+                        <a href="/general-pest-control" data-i18n="nav.generalPest">General Pest Control</a>
+                        <a href="/bed-bug-control" data-i18n="nav.bedBug">Bed Bug Control</a>
+                        <a href="/termite-control" data-i18n="nav.termite">Termite Control</a>
+                        <a href="/rodent-control" data-i18n="nav.rodent">Rodent Control</a>
+                        <a href="/preventative-pest-control" data-i18n="nav.preventative">Preventative Pest Control</a>
+                        <a href="/commercial-pest-control" data-i18n="nav.commercial">Commercial Pest Control</a>
                     </div>
                 </div>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
+                <a href="/about" data-i18n="nav.about">About</a>
+                <a href="/contact" data-i18n="nav.contact">Contact</a>
             </div>
             <div class="phone-number">
                 <a href="tel:202-321-2896">(202) 321-2896</a>
+                <button class="language-toggle" aria-label="Switch to Spanish"><i class="fas fa-globe"></i> <span>ES</span></button>
             </div>
         </div>
     </nav>
@@ -47,8 +48,8 @@
     <!-- Hero Section -->
     <section class="about-hero">
         <div class="about-hero-content">
-            <h1>Our Story</h1>
-            <p>Serving the DMV Community Since 2005</p>
+            <h1 data-i18n="aboutPage.hero.title">Our Story</h1>
+            <p data-i18n="aboutPage.hero.subtitle">Serving the DMV Community Since 2005</p>
         </div>
         <div class="hero-image">
             <img src="images/IMG_6025.JPG" alt="DMV Exterminators Team">
@@ -58,11 +59,10 @@
     <!-- Company History Section -->
     <section class="company-history">
         <div class="history-content">
-            <h2>Our Local Roots</h2>
+            <h2 data-i18n="aboutPage.history.title">Our Local Roots</h2>
             <div class="history-grid">
                 <div class="history-text">
-                    <p>Founded in 2005 in Rockville, Maryland, DMV Exterminators was born from a simple mission: to provide our local community with reliable, effective pest control solutions. Our founder, Carlos Marchena, recognized the unique pest challenges faced by homeowners and businesses in the DC Metro area and set out to create a company that truly understands and serves our local community.</p>
-        
+                    <p data-i18n="aboutPage.history.description">Founded in 2005 in Rockville, Maryland, DMV Exterminators was born from a simple mission: to provide our local community with reliable, effective pest control solutions. Our founder, Carlos Marchena, recognized the unique pest challenges faced by homeowners and businesses in the DC Metro area and set out to create a company that truly understands and serves our local community.</p>
                 </div>
                 <div class="history-image">
                     <img src="images/IMG_6023.jpg" alt="Our Local Office">
@@ -74,25 +74,25 @@
     <!-- Mission & Values Section -->
     <section class="mission-values">
         <div class="mission-content">
-            <h2>Our Mission & Values</h2>
+            <h2 data-i18n="aboutPage.mission.title">Our Mission & Values</h2>
             <div class="team-image">
                 <img src="images/carlos_working.jpg" alt="Carlos Rodriguez - Founder at Work">
-                <p class="image-caption">Carlos Marchena, Founder & Lead Technician</p>
+                <p class="image-caption" data-i18n="aboutPage.mission.founderCaption">Carlos Marchena, Founder & Lead Technician</p>
             </div>
             <div class="values-grid">
                 <div class="value-card">
                     <div class="value-icon">
                         <img src="icons/community.png" alt="Community Icon">
                     </div>
-                    <h3>Community First</h3>
-                    <p>We're not just a pest control company - we're your neighbors. We're committed to making our community a better place to live and work.</p>
+                    <h3 data-i18n="aboutPage.mission.value1Title">Community First</h3>
+                    <p data-i18n="aboutPage.mission.value1Description">We're not just a pest control company - we're your neighbors. We're committed to making our community a better place to live and work.</p>
                 </div>
                 <div class="value-card">
                     <div class="value-icon">
                         <img src="icons/quality.png" alt="Quality Icon">
                     </div>
-                    <h3>Local Expertise</h3>
-                    <p>With 20+ years of experience in the DMV area, we understand the unique pest challenges of our region and how to solve them effectively.</p>
+                    <h3 data-i18n="aboutPage.mission.value2Title">Local Expertise</h3>
+                    <p data-i18n="aboutPage.mission.value2Description">With 20+ years of experience in the DMV area, we understand the unique pest challenges of our region and how to solve them effectively.</p>
                 </div>
             </div>
         </div>
@@ -100,18 +100,18 @@
 
     <!-- Service Area Map Section -->
     <section class="service-area">
-        <h2>Our Service Area</h2>
+        <h2 data-i18n="aboutPage.serviceArea.title">Our Service Area</h2>
         <div class="map-container">
             <img src="images/service_area.png" alt="DMV Service Area Map" class="service-map">
             <div class="area-list">
-                <h3>We Serve:</h3>
+                <h3 data-i18n="aboutPage.serviceArea.weServe">We Serve:</h3>
                 <ul>
-                    <li>Montgomery County, MD</li>
-                    <li>Prince George's County, MD</li>
-                    <li>Fairfax County, VA</li>
-                    <li>Arlington County, VA</li>
-                    <li>Washington, DC</li>
-                    <li>And surrounding areas within 30 miles of Rockville</li>
+                    <li data-i18n="aboutPage.serviceArea.montgomery">Montgomery County, MD</li>
+                    <li data-i18n="aboutPage.serviceArea.pg">Prince George's County, MD</li>
+                    <li data-i18n="aboutPage.serviceArea.fairfax">Fairfax County, VA</li>
+                    <li data-i18n="aboutPage.serviceArea.arlington">Arlington County, VA</li>
+                    <li data-i18n="aboutPage.serviceArea.dc">Washington, DC</li>
+                    <li data-i18n="aboutPage.serviceArea.surrounding">And surrounding areas within 30 miles of Rockville</li>
                 </ul>
             </div>
         </div>
@@ -120,22 +120,22 @@
     <!-- Contact Section -->
     <section class="local-contact">
         <div class="contact-content">
-            <h2>Contact Our Team</h2>
+            <h2 data-i18n="aboutPage.contact.title">Contact Our Team</h2>
             <div class="contact-grid">
                 <div class="contact-info">
-                    <h3>Get in Touch</h3>
+                    <h3 data-i18n="aboutPage.contact.getInTouch">Get in Touch</h3>
                     <p><i class="fas fa-phone"></i> <a href="tel:202-321-2896">(202) 321-2896</a></p>
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@dmvexterminators.com">info@dmvexterminators.com</a></p>
-                    <p><i class="fas fa-map-marker-alt"></i> Serving the DMV Area</p>
-                    <p><i class="fas fa-clock"></i> Mon-Fri: 8am-6pm<br>Sat: 9am-2pm</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:dmvexterminators@gmail.com">dmvexterminators@gmail.com</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="aboutPage.contact.serving">Serving the DMV Area</span></p>
+                    <p><i class="fas fa-clock"></i> <span data-i18n="aboutPage.contact.hours" data-i18n-html="true">Mon-Fri: 8am-6pm<br>Sat: 9am-2pm</span></p>
                 </div>
                 <div class="contact-form">
                     <form>
-                        <input type="text" placeholder="Your Name" required>
-                        <input type="email" placeholder="Your Email" required>
-                        <input type="tel" placeholder="Your Phone" required>
-                        <textarea placeholder="How can we help you?" required></textarea>
-                        <button type="submit" class="cta-button">Send Message</button>
+                        <input type="text" placeholder="Your Name" data-i18n-placeholder="aboutPage.contact.namePlaceholder" required>
+                        <input type="email" placeholder="Your Email" data-i18n-placeholder="aboutPage.contact.emailPlaceholder" required>
+                        <input type="tel" placeholder="Your Phone" data-i18n-placeholder="aboutPage.contact.phonePlaceholder" required>
+                        <textarea placeholder="How can we help you?" data-i18n-placeholder="aboutPage.contact.messagePlaceholder" required></textarea>
+                        <button type="submit" class="cta-button" data-i18n="aboutPage.contact.sendButton">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -146,32 +146,32 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>Contact Us</h3>
+                <h3 data-i18n="footer.contact.title">Contact Us</h3>
                 <p><a href="tel:1-800-555-0123">(202) 321-2896</a></p>
-                <p><a href="mailto:info@dmvexterminators.com">info@dmvexterminators.com</a></p>
-                <p>Washington DC Metro Area</p>
+                <p><a href="mailto:dmvexterminators@gmail.com">dmvexterminators@gmail.com</a></p>
+                <p data-i18n="footer.contact.area">Washington DC Metro Area</p>
             </div>
 
             <div class="footer-section">
-                <h3>Services</h3>
+                <h3 data-i18n="footer.services.title">Services</h3>
                 <ul>
-                    <li><a href="/general-pest-control">General Pest Control</a></li>
-                    <li><a href="/bed-bug-control">Bed Bug Control Control</a></li>
-                    <li><a href="/preventative-pest-control">Preventative Services</a></li>
+                    <li><a href="/general-pest-control" data-i18n="footer.services.general">General Pest Control</a></li>
+                    <li><a href="/bed-bug-control" data-i18n="footer.services.bedBug">Bed Bug Control</a></li>
+                    <li><a href="/preventative-pest-control" data-i18n="footer.services.preventative">Preventative Services</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h3>Company</h3>
+                <h3 data-i18n="footer.company.title">Company</h3>
                 <ul>
-                    <li><a href="/about">About Us</a></li>
-                    <li><a href="/privacy">Privacy Policy</a></li>
-                    <li><a href="/terms">Terms of Service</a></li>
+                    <li><a href="/about" data-i18n="footer.company.about">About Us</a></li>
+                    <li><a href="/privacy" data-i18n="footer.company.privacy">Privacy Policy</a></li>
+                    <li><a href="/terms" data-i18n="footer.company.terms">Terms of Service</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h3>Follow Us</h3>
+                <h3 data-i18n="footer.social.title">Follow Us</h3>
                 <div class="social-links">
                     <a href="https://www.facebook.com/DMVEXTERMINATORS2016/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
                 </div>
@@ -179,7 +179,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2025 DMV Exterminators. All rights reserved.</p>
+            <p data-i18n="footer.copyright">© 2025 DMV Exterminators. All rights reserved.</p>
         </div>
     </footer>
 
